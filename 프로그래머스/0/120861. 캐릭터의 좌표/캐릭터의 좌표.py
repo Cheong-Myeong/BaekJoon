@@ -14,7 +14,7 @@ def solution(keyinput, board):
         if key == 'up':
             if -(board[1]//2) <= answer[1] + dj[2] <= (board[1]//2):
                 answer[1] += dj[2]
-        if key == 'down':   
+        if key == 'down':
             if -(board[1]//2) <= answer[1] + dj[3] <= (board[1]//2):
                 answer[1] += dj[3]
     return answer        
